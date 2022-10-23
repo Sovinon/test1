@@ -22,14 +22,7 @@ if(!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQU
     <div class="level-3-menu d-none d-md-block">
         <div class="container">
             <div class="nav menu page-menu" id="page-menu">
-                <a class="menu-link-bottom" href="#models">Модельный ряд</a>                
-                <a class="menu-link-bottom" href="#credit">Рассчитать кредит</a>
-                <a class="menu-link-bottom" href="#tradein">Трейд-ин</a>
-                <a class="menu-link-bottom" href="#testdrive">Тест-драйв</a>
-                <!--<a class="menu-link-bottom" href="#filter-anchor">Авто в наличии</a>
-                <a class="menu-link-bottom" href="#feedback">Отзывы</a>-->
-                <!--<a class="menu-link-bottom" href="#dist">Дистанционная покупка</a>-->
-                <a class="menu-link-bottom" href="#question">Получить консультацию</a>
+
             </div>
         </div> 
     </div>
