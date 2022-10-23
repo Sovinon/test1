@@ -1,0 +1,31 @@
+ErrorDocument 404  https://auto.nissan-komi.ru/templates/404.php
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 5 seconds"
+
+ExpiresByType image/x-icon "access plus 1 days"
+ExpiresByType image/jpeg "access plus 1 days"
+ExpiresByType image/png "access plus 1 days"
+ExpiresByType image/gif "access plus 1 days"
+ExpiresByType application/x-shockwave-flash "access plus 7 days"
+#кэшировать css, javascript и текстовые файлы на одну неделю
+ExpiresByType text/css "access plus 7 days"
+ExpiresByType text/javascript "access plus 7 days"
+ExpiresByType application/javascript "access plus 7 days"
+ExpiresByType application/x-javascript "access plus 7 days"
+
+#кэшировать xml файлы на десять минут
+ExpiresByType application/xhtml+xml "access plus 10 minutes"
+</IfModule>
+
+RewriteEngine on
+RewriteBase /
+
+Redirect 301 /newcar.php http://auto.nissan-komi.ru/newcars/
+Redirect 301 /oldcar.php http://auto.nissan-komi.ru/oldcars/
+
+Redirect 301 /models/new-qashqai.php http://auto.nissan-komi.ru/models/qashqai.php
+Redirect 301 /models/new-xtrail.php http://auto.nissan-komi.ru/models/xtrail.php
+
+
