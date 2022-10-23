@@ -1,0 +1,25 @@
+User-agent: *               # правила для всех роботов
+Disallow: /cgi-bin/          # папка на хостинге
+Disallow: /php/
+Disallow: /test/
+Disallow: /phpThumb/
+Disallow: /promo/
+Disallow: /templates/
+Disallow: /quiz/ 
+Disallow: *?*               # ссылки с параметрами
+Disallow: *utm*=            # ссылки с utm-метками
+Disallow: *openstat=        # ссылки с метками openstat
+Disallow: *from=            # ссылки с метками from
+Allow: /img/*.jpg        # здесь и далее открываем для индексации изображения, файлы и скрипты
+Allow: /img/*.jpeg 
+Allow: /img/*.gif 
+Allow: /img/*.png 
+Allow: /img/*.pdf 
+Allow: /img/*.doc 
+Allow: /img/*.docx 
+Allow: /img/*.xls 
+Allow: /img/*.xlsx 
+Allow: /img/*.ppt 
+Allow: /img/*.pptx 
+Allow: /img/*.js 
+Allow: /img/*.css
